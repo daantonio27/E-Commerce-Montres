@@ -61,24 +61,23 @@ const Footer = () => {
         <div className="line">
           <p>
             Copyright ©2023 All rights reserved | This template is made with{" "}
-            <AiFillHeart /> by <span>@iahmedfarag</span>
+            <AiFillHeart /> by <span>@daantonio</span>
           </p>
           <ul>
             <li>
-              <a href="https://www.facebook.com/iahmedfarag/" target="_blank">
+              <a href="https://www.facebook.com/da.antonio.10/" target="_blank">
                 <BsFacebook />
               </a>
             </li>
             <li>
-              <a
-                href="https://www.linkedin.com/in/ahmed-farag-16433b260/"
+              <a href="https://www.linkedin.com/in/daantonioco/"
                 target="_blank"
               >
                 <AiFillLinkedin />
               </a>
             </li>
             <li>
-              <a href="https://github.com/iahmedfarag" target="_blank">
+              <a href="https://github.com/daantonio27" target="_blank">
                 <AiFillGithub />
               </a>
             </li>
