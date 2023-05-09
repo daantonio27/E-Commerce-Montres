@@ -21,7 +21,7 @@ const CartProduct = ({ id, image, title, price, amount }) => {
           <h4>{title}</h4>
         </div>
 
-        <h4 className="price">${price}</h4>
+        <h4 className="price">{price} CFA</h4>
 
         <div className="quantity">
           <input
@@ -53,7 +53,7 @@ const CartProduct = ({ id, image, title, price, amount }) => {
           </div>
         </div>
 
-        <p className="total">${price * amount}</p>
+        <p className="total">{price * amount} CFA</p>
 
         <button
           className="remove"

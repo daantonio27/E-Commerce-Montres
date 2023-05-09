@@ -24,7 +24,7 @@ const WhishList = () => {
           ) : (
             <div className="products">
               {whishlist_products.length === 0 ? (
-                <h1>your whish list is empty...</h1>
+                <h1>votre liste de souhaits est vide...</h1>
               ) : (
                 <div className="wrapper">
                   {whishlist_products?.map((product) => {
@@ -45,7 +45,7 @@ const WhishList = () => {
                       dispatch(clearWhishlist());
                     }}
                   >
-                    clear
+                    vider
                   </button>
                 </div>
               )}

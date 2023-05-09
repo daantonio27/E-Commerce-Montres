@@ -36,14 +36,14 @@ export const cartSlice = createSlice({
         });
         state.cart_products = [...cartTempProducts];
         localStorage.setItem("cart", JSON.stringify(state.cart_products));
-        toast.success(`Product Amount Has Been Increased`);
+        toast.success(`Le montant du produit a été augmenté`);
 
         return;
       }
 
       state.cart_products = [...cartTempProducts, payload];
       localStorage.setItem("cart", JSON.stringify(state.cart_products));
-      toast.success("Product Added To Cart!");
+      toast.success("Produit ajouté au panier !");
     },
 
     // ! toggle product amount

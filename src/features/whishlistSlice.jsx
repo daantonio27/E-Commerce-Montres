@@ -18,7 +18,7 @@ const initialState = {
 };
 
 export const whishlistSlice = createSlice({
-  name: "whishlist",
+  name: "liste des souhaits",
   initialState,
   reducers: {
     // ! add to whishlist function
@@ -30,15 +30,15 @@ export const whishlistSlice = createSlice({
           (product) => product.id !== payload.id
         );
         state.whishlist_products = cartTempProducts;
-        toast.success("Item Removed From WhishList!");
+        toast.success("Article retiré de la WhishList !");
         return;
       }
       state.whishlist_products = [...cartTempProducts, payload];
       localStorage.setItem(
-        "whishlist",
+        "liste des souhaits",
         JSON.stringify(state.whishlist_products)
       );
-      toast.success("Product Added To WhishList!");
+      toast.success("Produit ajouté à la liste des souhaits !");
     },
 
     // ! remove item
@@ -59,7 +59,7 @@ export const whishlistSlice = createSlice({
     clearWhishlist: (state) => {
       state.whishlist_products = [];
       localStorage.setItem(
-        "whishlist",
+        "liste des souhaits",
         JSON.stringify(state.whishlist_products)
       );
     },

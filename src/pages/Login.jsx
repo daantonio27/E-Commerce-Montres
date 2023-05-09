@@ -49,16 +49,16 @@ const Login = () => {
       <section>
         <div className="container">
           <FormCard
-            header={`New to our Shop?`}
-            text={`There are advances being made in science and technology
+            header={`Nouveau dans notre boutique ?`}
+            text={`La science et la technologie progressent
         <span></span>
-        everyday, and a good example of this is the`}
-            button={"Create An Account"}
+        tous les jours, et un bon exemple en est la`}
+            button={"Créer un compte"}
           />
           <form onSubmit={handleSubmit}>
             <div className="wrapper">
               <h2>
-                Welcome Sir! <br /> Signin Now
+                Bienvenue Monsieur ! <br /> S'inscrire maintenant
               </h2>
 
               <input

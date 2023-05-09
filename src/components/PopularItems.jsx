@@ -14,7 +14,7 @@ const PopularItems = () => {
     <Wrapper>
       <div className="container">
         <header>
-          <h2>Popular Items</h2>
+          <h2>Articles populaires</h2>
           <p>
             Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
             labore et dolore magna aliqua. <span></span> Quis ipsum suspendisse
@@ -25,42 +25,42 @@ const PopularItems = () => {
           <Product
             image={product1}
             title={"Thermo Ball Etip Gloves"}
-            price={"145,000"}
+            price={"150"}
             id={61}
           />
           <Product
             image={product2}
             title={"Thermo Ball Etip Gloves"}
-            price={"98,503"}
+            price={"90"}
             id={62}
           />
           <Product
             image={product3}
             title={"Thermo Ball Etip Gloves"}
-            price={"56,793"}
+            price={"55"}
             id={63}
           />
           <Product
             image={product4}
             title={"Thermo Ball Etip Gloves"}
-            price={"45,743"}
+            price={"45"}
             id={64}
           />
           <Product
             image={product5}
             title={"Thermo Ball Etip Gloves"}
-            price={"100,930"}
+            price={"100"}
             id={65}
           />
           <Product
             image={product6}
             title={"Thermo Ball Etip Gloves"}
-            price={"85,305"}
+            price={"85"}
             id={61}
           />
         </div>
 
-        <ShopNowBtn text="VIEW MORE PRODUCTS" />
+        <ShopNowBtn text="VOIR PLUS" />
       </div>
     </Wrapper>
   );

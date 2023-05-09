@@ -24,9 +24,9 @@ const Cart = () => {
       <section>
         <div className="container">
           <header>
-            <p className="content">Product</p>
-            <p>Price</p>
-            <p>Quantity</p>
+            <p className="content">Produit</p>
+            <p>Prix</p>
+            <p>Quantité</p>
             <p>Total</p>
             <p className="remove"></p>
           </header>
@@ -49,8 +49,8 @@ const Cart = () => {
               })
             ) : (
               <>
-                <h2>your cart is empty...</h2>
-                <ShopNowBtn text={"SHOP NOW"} />
+                <h2>votre panier est vide...</h2>
+                <ShopNowBtn text={"ACHETER MAINTENANT"} />
               </>
             )}
           </div>

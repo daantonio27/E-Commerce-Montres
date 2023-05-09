@@ -40,7 +40,7 @@ const AddSection = ({ id, image, title, price }) => {
           AddToCart(id, image, title, price, prductAmount);
         }}
       >
-        <p>Add To Cart</p>
+        <p>Ajouter au panier</p>
         <span></span>
       </button>
     </Wrapper>

@@ -8,28 +8,28 @@ const NewArrivals = () => {
   return (
     <Wrapper>
       <div className="container">
-        <h2>New Arrivals</h2>
+        <h2>Nouveaux arrivages</h2>
         <div className="wrapper">
           <article>
             <img src={product03} alt="product" />
             <h3>
               <Link to={"/product-details/61"}>Thermo Ball Etip Gloves</Link>
             </h3>
-            <h4>$ 45,743</h4>
+            <h4> 45 743 CFA</h4>
           </article>
           <article>
             <img src={product04} alt="product" />
             <h3>
               <Link to={"/product-details/62"}>Thermo Ball Etip Gloves</Link>
             </h3>
-            <h4>$ 45,743</h4>
+            <h4>45 743 CFA</h4>
           </article>
           <article>
             <img src={product05} alt="product" />
             <h3>
               <Link to={"/product-details/63"}>Thermo Ball Etip Gloves</Link>
             </h3>
-            <h4>$ 45,743</h4>
+            <h4>45 743 CFA</h4>
           </article>
         </div>
       </div>

@@ -62,7 +62,7 @@ export const userSlice = createSlice({
         state.isLoading = false;
         state.user = user;
         localStorage.setItem("user", JSON.stringify(user.token));
-        toast.success(`Registered Succesfully ${user.name}!`);
+        toast.success(`Enregistré avec succès ${user.name}!`);
       })
       .addCase(registerUser.rejected, (state, { payload }) => {
         state.isLoading = false;
@@ -76,7 +76,7 @@ export const userSlice = createSlice({
         state.isLoading = false;
         state.user = user;
         localStorage.setItem("user", JSON.stringify(user.token));
-        toast.success(`Welcome Back ${user.name}!`);
+        toast.success(`Bon retour ${user.name}!`);
       })
       .addCase(loginUser.rejected, (state, { payload }) => {
         state.isLoading = false;

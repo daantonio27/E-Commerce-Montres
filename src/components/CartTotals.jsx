@@ -16,20 +16,21 @@ const CartTotals = () => {
           {totalAmount > 50 ? (
             <>
               <p>
-                Your Order Cost More Than <span>50$</span>!
+                Votre commande a coûté plus de <span>50 000 CFA</span>!
               </p>
               <h4>
-                <span>Congrats</span> You Are Eligible Fore Free Shipping{" "}
-                <FaShippingFast />
+                <span>Félicitations</span> Vous êtes éligible à la livraison
+                gratuite <FaShippingFast />
               </h4>
             </>
           ) : (
             <>
               <p>
-                If Your Total Amount Equal Or More Than <span>50$</span>!
+                Si le montant total est égal ou supérieur à{" "}
+                <span>50 000 CFA</span>!
               </p>
               <h4>
-                You Will Get Free <span>Shipping</span>
+                Vous bénéficierez de la <span>livraison gratuite</span>
                 <FaShippingFast />
               </h4>
             </>
@@ -37,20 +38,20 @@ const CartTotals = () => {
         </div>
         <div className="checkout">
           <div>
-            <h4>Total Items:</h4>
-            <p>{totalItems} items</p>
+            <h4>Total des articles :</h4>
+            <p>{totalItems} articles</p>
           </div>
           <div>
             <h4>Subtotal:</h4>
-            <p>${subtotal}</p>
+            <p>{subtotal} CFA</p>
           </div>
           <div>
             <h4>Sales Taxes:</h4>
-            <p>${tax}.00</p>
+            <p>{tax} CFA</p>
           </div>
           <div>
-            <h4>Grand Total:</h4>
-            <p className="total">${totalAmount}.00</p>
+            <h4>Total général :</h4>
+            <p className="total">{totalAmount} CFA</p>
           </div>
           <br />
           <ShopNowBtn

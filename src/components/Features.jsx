@@ -11,7 +11,7 @@ const Features = () => {
             <div className="icon">
               <FaShippingFast />
             </div>
-            <h3>Free Shipping Method</h3>
+            <h3>Méthode de livraison gratuite</h3>
             <p>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd</p>
           </article>
           <article>

@@ -46,7 +46,7 @@ const Register = () => {
       <section>
         <div className="container">
           <FormCard
-            header={`Already Have An Account?`}
+            header={`Vous avez déjà un compte ?`}
             text={`There are advances being made in science and technology
         <span></span>
         everyday, and a good example of this is the`}
@@ -55,7 +55,7 @@ const Register = () => {
           <form onSubmit={handleSubmit}>
             <div className="wrapper">
               <h2>
-                Welcome Back ! <br /> Please Signup now
+                Bienvenue ! <br /> S'inscrire maintenant
               </h2>
 
               <input

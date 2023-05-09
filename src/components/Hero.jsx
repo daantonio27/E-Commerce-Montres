@@ -8,14 +8,14 @@ const Hero = () => {
       <div className="container">
         <section className="content">
           <h2 className="animate__animated animate__fadeInLeft">
-            select your new perfect style
+            choisissez votre nouveau style parfait
           </h2>
           <p className="animate__animated animate__fadeInLeft">
             Marxism tbh fixie tote bag ethical vaporware. Copper mug
             dreamcatcher messenger bag, <span></span> green juice schlitz
             slow-carb heirloom ramps.
           </p>
-          <ShopNowBtn text="SHOP NOW" />
+          <ShopNowBtn text="ACHETER MAINTENANT" />
         </section>
         <section className="watch animate__animated animate__wobble animate__repeat-3 animate__slower">
           <img src={watch} alt="" />

@@ -50,8 +50,8 @@ const ProductDetails = () => {
               </h4>
               <p className="description">{description}</p>
               <div className="price">
-                <h4 className="oldPrice">$229.99</h4>
-                <h4 className="newPrice">$ {price}.00</h4>
+                <h4 className="oldPrice">175 CFA</h4>
+                <h4 className="newPrice">{price} CFA</h4>
               </div>
               <AddSection
                 id={id}
@@ -64,9 +64,9 @@ const ProductDetails = () => {
                 <BiSupport /> Support Avaiable 24/7 For You
               </p>
               <p>
-                <FaShippingFast /> Free Shipping On Orders $50+
+                <FaShippingFast /> Free Shipping On Orders +50
               </p>
-              <p>You Save 20$</p>
+              <p>You Save 20 CFA</p>
             </div>
           </div>
         </section>

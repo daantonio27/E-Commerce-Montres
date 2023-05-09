@@ -6,7 +6,7 @@ const ContactForm = () => {
   return (
     <Wrapper>
       <form>
-        <h2>Get in Touch</h2>
+        <h2>Prenez contact</h2>
 
         <div className="row">
           <textarea
@@ -14,20 +14,20 @@ const ContactForm = () => {
             id=""
             cols="30"
             rows="10"
-            placeholder="Enter Message"
+            placeholder="Message"
           ></textarea>
         </div>
 
         <div className="row">
-          <input type="text" placeholder="Enter your name" />
+          <input type="text" placeholder="Nom" />
           <input type="email" placeholder="Email" />
         </div>
 
         <div className="row">
-          <input type="text" placeholder="Enter Subject" />
+          <input type="text" placeholder="Objet" />
         </div>
 
-        <button type="submit">SEND</button>
+        <button type="submit">ENVOYER</button>
       </form>
 
       <div className="info">
@@ -37,8 +37,8 @@ const ContactForm = () => {
             <AiOutlineHome />
           </div>
           <div className="content">
-            <h4>Giza, Egypt</h4>
-            <p>Rosemead, CA 91770</p>
+            <h4>Dakar, Sénégal</h4>
+            <p>Fass, FA 91770</p>
           </div>
         </div>
         <div className="line">
@@ -46,8 +46,8 @@ const ContactForm = () => {
             <AiOutlinePhone />
           </div>
           <div className="content">
-            <h4>+0201069858429</h4>
-            <p>Mon to Fri 9am to 6pm</p>
+            <h4>+221 77 679 55 13</h4>
+            <p>Du lundi au vendredi de 9h à 18h</p>
           </div>
         </div>
         <div className="line">
@@ -55,8 +55,8 @@ const ContactForm = () => {
             <AiOutlineMail />
           </div>
           <div className="content">
-            <h4>ahmedfarag1k@gmail.com</h4>
-            <p>Send us your query anytime!</p>
+            <h4>daantonioc3@gmail.com</h4>
+            <p>Envoyez-nous votre demande à tout moment !</p>
           </div>
         </div>
       </div>

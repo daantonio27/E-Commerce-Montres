@@ -23,19 +23,19 @@ const Footer = () => {
           </article>
 
           <article>
-            <h3>New Products</h3>
+            <h3>Nouveaux Produits</h3>
             <ul>
               <li>
-                <a href="#">Woman Cloth</a>
+                <a href="#">Tissu pour femme</a>
               </li>
               <li>
-                <a href="#">Fashion Accessories</a>
+                <a href="#">Accessoires de mode</a>
               </li>
               <li>
-                <a href="#">Man Accessories</a>
+                <a href="#">Homme Accessories</a>
               </li>
               <li>
-                <a href="#">Rubber made Toys</a>
+                <a href="#">Jouets en caoutchouc</a>
               </li>
             </ul>
           </article>
@@ -44,7 +44,7 @@ const Footer = () => {
             <h3>Support</h3>
             <ul>
               <li>
-                <a href="#">Frequently Asked Questions</a>
+                <a href="#">FAQ</a>
               </li>
               <li>
                 <a href="#">Terms & Conditions</a>
@@ -70,7 +70,8 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/daantonioco/"
+              <a
+                href="https://www.linkedin.com/in/daantonioco/"
                 target="_blank"
               >
                 <AiFillLinkedin />

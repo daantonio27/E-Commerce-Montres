@@ -27,7 +27,7 @@ const Shop = () => {
   }, []);
   return (
     <Wrapper>
-      <Header title={"Watch Shop"} />
+      <Header title={"Montre Shop"} />
       <section>
         <div className="container">
           <header>
@@ -39,7 +39,7 @@ const Shop = () => {
                   sortProducts("time", "newest");
                 }}
               >
-                Newest Arrivals
+                Nouveaux arrivages
               </button>
               <button
                 className={active === 1 ? "active" : ""}
@@ -48,7 +48,7 @@ const Shop = () => {
                   sortProducts("price", "highest-price");
                 }}
               >
-                Price High To Low
+                Prix haut à bas
               </button>
               <button
                 className={active === 2 ? "active" : ""}
@@ -57,7 +57,7 @@ const Shop = () => {
                   sortProducts("price", "lowest-price");
                 }}
               >
-                Price Low To High
+                Prix bas à haut
               </button>
             </div>
 
@@ -66,7 +66,7 @@ const Shop = () => {
               id=""
               onChange={(e) => sortProducts("brand", e.target.value)}
             >
-              <option value="All">All</option>
+              <option value="All">Tous</option>
               {brands?.map((brand, index) => {
                 return (
                   <option value={brand} key={index}>

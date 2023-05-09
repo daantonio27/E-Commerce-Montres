@@ -23,11 +23,11 @@ const Product = ({ id, image, title, price }) => {
             AddToCart(id, image, title, price);
           }}
         >
-          Add to cart
+          Ajouter au panier
         </button>
       </div>
       <Link to={`/product-details/${id}`}>{title}</Link>
-      <h4>$ {price}</h4>
+      <h4>{price} CFA</h4>
     </Wrapper>
   );
 };

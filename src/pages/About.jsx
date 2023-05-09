@@ -13,7 +13,7 @@ const About = () => {
         <div className="container">
           <article>
             <h2>
-              <span></span> Our Mission
+              <span></span> Notre Mission
             </h2>
             <p>
               Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt
@@ -30,7 +30,7 @@ const About = () => {
           </article>
           <article>
             <h2>
-              <span></span> Our Vision
+              <span></span> Notre Vision
             </h2>
             <p>
               Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt

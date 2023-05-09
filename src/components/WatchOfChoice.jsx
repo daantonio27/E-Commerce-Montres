@@ -12,7 +12,7 @@ const WatchOfChoice = ({ textDirection, image }) => {
         }}
       >
         <div className="content">
-          <h2>Watch of Choice</h2>
+          <h2>Montre de référence</h2>
           <p>
             Enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
             ut aliquip ex ea commodo consequat. Duis aute irure dolor in

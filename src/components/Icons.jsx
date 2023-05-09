@@ -36,14 +36,14 @@ const Icons = () => {
       {user ? (
         <>
           <button className="logoutBtn" onClick={logout}>
-            Logout
+            Se déconnecter
             <FiUserMinus />
           </button>
         </>
       ) : (
         <>
           <Link to={"/login"} className="loginBtn">
-            Login
+            Connexion
             <FiUserPlus />
           </Link>
           <Link to={"/register"} className="registerBtn">
