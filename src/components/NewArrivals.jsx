@@ -8,7 +8,7 @@ const NewArrivals = () => {
   return (
     <Wrapper>
       <div className="container">
-        <h2>Nouveaux arrivages</h2>
+        <h2>Nouveautés</h2>
         <div className="wrapper">
           <article>
             <img src={product03} alt="product" />

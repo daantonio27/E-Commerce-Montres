@@ -27,7 +27,7 @@ const Shop = () => {
   }, []);
   return (
     <Wrapper>
-      <Header title={"Montre Shop"} />
+      <Header title={"Shop"} />
       <section>
         <div className="container">
           <header>

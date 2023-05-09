@@ -46,7 +46,7 @@ const CartTotals = () => {
             <p>{subtotal} CFA</p>
           </div>
           <div>
-            <h4>Sales Taxes:</h4>
+            <h4>Taxes de vente :</h4>
             <p>{tax} CFA</p>
           </div>
           <div>

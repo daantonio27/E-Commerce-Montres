@@ -18,7 +18,7 @@ const WatchOfChoice = ({ textDirection, image }) => {
             ut aliquip ex ea commodo consequat. Duis aute irure dolor in
             reprehenderit in voluptate velit esse.
           </p>
-          <ShopNowBtn text="SHOW WATCHES" />
+          <ShopNowBtn text="VOIR" />
         </div>
         <img src={image} alt="" />
       </div>
