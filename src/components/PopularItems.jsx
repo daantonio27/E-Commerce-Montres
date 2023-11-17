@@ -25,37 +25,37 @@ const PopularItems = () => {
           <Product
             image={product1}
             title={"Thermo Ball Etip Gloves"}
-            price={"150"}
+            price={"150 000 CFA"}
             id={61}
           />
           <Product
             image={product2}
             title={"Thermo Ball Etip Gloves"}
-            price={"90"}
+            price={"90 000 CFA"}
             id={62}
           />
           <Product
             image={product3}
             title={"Thermo Ball Etip Gloves"}
-            price={"55"}
+            price={"55 000 CFA"}
             id={63}
           />
           <Product
             image={product4}
             title={"Thermo Ball Etip Gloves"}
-            price={"45"}
+            price={"45 000 CFA"}
             id={64}
           />
           <Product
             image={product5}
             title={"Thermo Ball Etip Gloves"}
-            price={"100"}
+            price={"100 000 CFA"}
             id={65}
           />
           <Product
             image={product6}
             title={"Thermo Ball Etip Gloves"}
-            price={"85"}
+            price={"85 000 CFA"}
             id={61}
           />
         </div>
